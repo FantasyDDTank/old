@@ -44,6 +44,7 @@
 				<div class="button-container">
 					<button class="links" onclick="openEventP(event, 'ENT')" id="DOpen">入门篇</button>
                     <button class="links" onclick="openEventP(event, 'BAS')" id="two">基础篇</button>
+                    <button class="links" onclick="openEventP(event, 'DROP')" id="three">副本掉落</button>
 				</div>
 			</div>
 
@@ -549,6 +550,110 @@
 				</div>
 
 			</div>
+
+			<!-- 副本掉落 -->
+			<div id="DROP" class="links-content">
+				<!-- 资讯 -->
+				<div class="small-container information">
+					<div class="container">
+						<div class="title">
+							<span>
+								使用说明
+							</span>
+						</div>
+						<div class="content">
+							<span>
+								以下内容可采用搜索的方式来搜索素材所在的副本。以下内容目前不完善，请见谅。
+								<br><br>
+								【奇幻】国，【奇幻】庆，【奇幻】欢，【奇幻】度👈一概输入【奇幻活动素材】
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="search-container">
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="👉输入查询素材掉落副本" title="输入素材名字">
+				</div>
+
+				<ul id="myUL">
+					<li class="small-container">
+						<div class="container">
+							<div class="title">
+								<span>
+									普通副本-蚂蚁之巢
+								</span>
+							</div>
+							<div class="content">
+								<a>
+									天天向上，极·飞天跑车，周年白金手链，周年白金之戒，朱雀石5级，玄武石5级，青龙石5级，白虎石5级，进阶石，4级经验药水，超级经验药水，神秘卡盒，星宿之佑高级碎片，经验手镯，经验之戒，西瓜，【奇幻】女王的弓箭，【奇幻】红宝石，【奇幻活动素材】
+								</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="small-container">
+						<div class="container">
+							<div class="title">
+								<span>
+									普通副本-小鸡快跑
+								</span>
+							</div>
+							<div class="content">
+								<a>
+									极·爱心便当，极·工作狂，超级经验药水，修炼药水2级，修炼药水3级，魔法修炼药水2级，开孔钻头1级，开孔钻头2级，凝神药水1级，凝神药水2级，启灵珠1级，经验手镯，经验之戒，经验手镯+1，经验之戒+1，真·小鸡高级碎片，荔枝，【奇幻】毒鸡蛋，【奇幻】蓝宝石，【奇幻活动素材】
+								</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="small-container">
+						<div class="container">
+							<div class="title">
+								<span>
+									普通副本-啵咕王城
+								</span>
+							</div>
+							<div class="content">
+								<a>
+									爱心回力镖，真·远古竹枪，真·牛头怪，真·天使之赐，天使之赐，巴罗夫盾牌，小毒鸡，闪耀绿芽，稀有小啵咕，锻造石，精致兽灵帽，精致兽灵斧，精致兽灵甲，初级宠物粮，中级宠物粮，洗髓丹，真·爱心回力标高级碎片，进化石，榴莲，【奇幻】定时炸弹，【奇幻】绿宝石，【奇幻活动素材】
+								</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="small-container">
+						<div class="container">
+							<div class="title">
+								<span>
+									普通副本-邪神部落
+								</span>
+							</div>
+							<div class="content">
+								<a>
+									真·三色花的祝福，超级经验药水，攻击祝福宝珠，防御祝福宝珠，属性祝福宝珠，坐骑之灵，宠物之灵，坐骑图鉴碎片，守护之心，荣誉精华，魔法宝珠-伤害Lv15，魔法宝珠-伤害Lv13，星宿之佑高级碎片，守护法典高级碎片，灵魂石，樱桃，荔枝，【奇幻】邪神的面具，【奇幻】紫宝石，【奇幻活动素材】
+								</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="small-container">
+						<div class="container">
+							<div class="title">
+								<span>
+									普通副本-黑暗堡垒
+								</span>
+							</div>
+							<div class="content">
+								<a>
+									恶魔宝珠·红，高级宠物粮，高级祭品，开孔钻头3级，低级祭品，破碎手册，完整手册，魔法宝珠-攻击Lv17，魔法宝珠-攻击Lv15，灵魂石，怒龙赤炎镯+5，荣誉精华，经验之戒+3，千叶草，芒果，荔枝，【奇幻】牛头的角，【奇幻】红宝石，【奇幻】蓝宝石，【奇幻活动素材】
+								</a>
+							</div>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+
 		</div>
 	</section>
 </main>
@@ -571,5 +676,25 @@
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("DOpen").click();
 </script>
+
 <script type="text/javascript" src="opencontent.js"></script>
+
+<script type="text/javascript">
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 </html>
