@@ -23,3 +23,9 @@ selectElement('#title-3').addEventListener('click', () => {
 	document.getElementById('container-3').classList.toggle('rotateicon');
 
 });
+
+selectElement('#title-4').addEventListener('click', () => {
+	document.getElementById('content-4').classList.toggle('show-4');
+	document.getElementById('container-4').classList.toggle('rotateicon');
+
+});
