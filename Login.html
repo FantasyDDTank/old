@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>登录页面</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
+</head>
+<body>
+<!-- Nav -->
+<nav id="header">
+	<div class="header-content">
+		<div class="image-container">
+			<a class="button" href="index.html"></a>
+			<figure class="logo">
+				<span>
+					奇幻弹弹堂
+				</span>
+			</figure>
+		</div>
+	</div>
+</nav>
+
+<!-- Main Contain -->
+<main class="main">
+	<section class="section">
+		<div class="section-content">
+			<div class="outer-container">
+				<div class="container">
+					<div class="title">
+						<span>
+							⚠警告⚠
+						</span>
+					</div>
+					<br>
+					<div class="content">
+						<span>
+							此页面属于【傲视天下】公会会员专属。非本会会员无法登录。
+							<br><br>
+							【傲视天下】公会会员请在微信群里索取用户名和密码。
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="small-container">
+				<div class="container">
+					<form action="login/dtw.html" method="post" onsubmit="return SignIn()">
+						<table>
+							<tr>
+								<td><label class="label-title" for="username">用户名:</label></td>
+								<td><input id="username" pattern="\w+" type="text" placeholder="输入用户名" tabindex="1" autofocus></td>
+							</tr>
+							<tr>
+								<td><label class="label-title" for="password">密码:</label></td>
+								<td><input id="password" pattern="\w+" type="password" placeholder="输入密码" tabindex="2"></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><input id="sign-in-btn" type="submit" value="登录" tabindex="3"></td>
+							</tr>
+						</table>
+					</form>	
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+</body>
+<script type="text/javascript" src="js/R&L.js"></script>
+</html>

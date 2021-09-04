@@ -53,6 +53,17 @@ body{
     line-height: 100px;
 }
 
+#header .header-content .image-container a.button{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
 #header .header-content .image-container .logo{
     background-size: 200px 100px;
     background-repeat: no-repeat;
@@ -60,6 +71,7 @@ body{
     background-position: center center;
     width: 200px;
     margin: 0 auto;
+    pointer-events: auto;
 }
 
 #header .header-content .image-container .logo span{

@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-size: 17px;
+    font-family: "FangSong","KaiTi","Helvetica","Arial",sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-style: normal;
+}
+
+/* Header */
+#header{
+    position: absolute;
+    background: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    height: 120px;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "FangSong","KaiTi","Helvetica","Arial",sans-serif;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+#header .header-content{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+}
+
+#header .header-content .image-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 120px;
+    line-height: 100px;
+}
+
+#header .header-content .image-container a.button{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#header .header-content .image-container .logo{
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    background-image: url('Image/Logo/Logo.png');
+    background-position: center center;
+    width: 200px;
+    margin: 0 auto;
+    pointer-events: auto;
+}
+
+#header .header-content .image-container .logo span{
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 50%;
+}
+
+/* Main Content */
+.main{
+    position: relative;
+    display: block;
+}
+
+section{
+    display: block;
+}
+
+.main .section{
+    padding-top: 120px;
+    background-color: #f5f5f7;
+    width: 100%;
+    height: auto;
+}
+
+.main .section .section-content{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 警告 */
+.main .section .section-content .outer-container{
+    width: calc(100% - 2px);
+    height: auto;
+    margin: 20px 0;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+    padding: 10px 0;
+    border: 1px solid #28ff28;
+}
+
+.main .section .section-content .outer-container .container{
+    display: block;
+    margin: 0 10px;
+}
+
+.main .section .section-content .outer-container .container .title{
+    font-size: 20px;
+    font-family: "FangSong","KaiTi","Helvetica","Arial",sans-serif;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main .section .section-content .outer-container .container .content{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* 登录 */
+.main .section .section-content .small-container{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 15px 0;
+    position: relative;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.main .section .section-content .small-container .container{
+    margin: 0 15px;
+}
+
+.main .section .section-content .small-container .container table{
+    margin: 0 auto;
+}
+
+.main .section .section-content .small-container .container table .label-title{
+    padding: 15px;
+}
+
+.main .section .section-content .small-container .container table #username, .main .section .section-content .small-container .container table #password{
+    font-size: 13px;
+    height: auto;
+    line-height: 1.33333;
+    padding: 15px 15px 15px 20px;
+    background: transparent;
+    color: #9295a2;
+    border: 1px solid #4e5165;
+    box-shadow: none;
+    display: block;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.main .section .section-content .small-container .container table #sign-in-btn{
+    cursor: pointer;
+    text-align: center;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background: #84ba3f;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+}
