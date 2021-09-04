@@ -144,12 +144,14 @@ section{
 /* 选择 */
 .main .section .section-content .select-container{
     width: 100%;
-    height: auto;
     margin: 20px 0;
     background-color: #28ff28;
     position: relative;
-    overflow: hidden;
-    pointer-events: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
 }
 
 .main .section .section-content .select-container .button-container{
@@ -195,6 +197,12 @@ section{
 }
 
 .main .section .section-content .select-container .button-container button#three.active {
+    color: #000;
+    background: #fff;
+    margin: 2px;
+}
+
+.main .section .section-content .select-container .button-container button#four.active {
     color: #000;
     background: #fff;
     margin: 2px;
