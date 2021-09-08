@@ -252,6 +252,8 @@ section{
 .main .section .section-content .links-content .information .container{
     margin: 0 15px;
     text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .main .section .section-content .links-content .small-container .container .content img{
