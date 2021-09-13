@@ -208,6 +208,12 @@ section{
     margin: 2px;
 }
 
+.main .section .section-content .select-container .button-container button#five.active {
+    color: #000;
+    background: #fff;
+    margin: 2px;
+}
+
 /* 入门篇 */
 .main .section .section-content .links-content {
     width: 100%;
@@ -486,4 +492,45 @@ section{
     display: inline-block;
     font-size: 14px;
     padding: 0 6px;
+}
+
+
+/* 技术赛 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    overflow: auto;
+    margin: 0;
+    padding: 15px;
+}
+
+.grid-container .text{
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
+    border: solid 1px #ff4dde;
+    grid-column: span 1;
+}
+
+@media screen and (max-width: 1024px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        overflow: auto;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 8px;
+        overflow: auto;
+        margin: 0;
+        padding: 8px;
+    }
 }
