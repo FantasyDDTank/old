@@ -513,6 +513,10 @@ section{
     grid-column: span 1;
 }
 
+.grid-container .text span{
+    text-decoration-line: line-through;
+}
+
 @media screen and (max-width: 1024px){
     .grid-container {
         display: grid;
