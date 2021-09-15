@@ -120,6 +120,7 @@ section{
     pointer-events: auto;
     padding: 10px 0;
     border: 1px solid #28ff28;
+    border-radius: 30px;
 }
 
 .main .section .section-content .outer-container .container{
@@ -152,6 +153,11 @@ section{
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
+    border-radius: 30px;
+}
+
+.main .section .section-content .select-container::-webkit-scrollbar{
+    display: none;
 }
 
 .main .section .section-content .select-container .button-container{
@@ -182,6 +188,7 @@ section{
     overflow: visible;
     vertical-align: inherit;
     pointer-events: auto;
+    border-radius: 30px;
 }
 
 .main .section .section-content .select-container .button-container button#DOpen.active {
@@ -232,10 +239,11 @@ section{
     position: relative;
     background-color: #fff;
     list-style-type: none;
+    border-radius: 30px;
 }
 
 .main .section .section-content .links-content .small-container .container{
-    margin: 0 15px;
+    margin: 0 20px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -482,6 +490,7 @@ section{
     line-height: 28px;
     font-weight: bold;
     color: grey;
+    border-radius: 30px;
 }
 
 .main .section .section-content .links-content .small-container .container .title .n-s{
@@ -499,10 +508,10 @@ section{
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 15px;
+    grid-gap: 20px;
     overflow: auto;
     margin: 0;
-    padding: 15px;
+    padding: 20px 0 5px 0;
 }
 
 .grid-container .text{
@@ -521,10 +530,9 @@ section{
     .grid-container {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-gap: 10px;
+        grid-gap: 20px;
         overflow: auto;
         margin: 0;
-        padding: 10px;
     }
 }
 
@@ -532,9 +540,9 @@ section{
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        grid-gap: 8px;
+        grid-gap: 15px;
         overflow: auto;
         margin: 0;
-        padding: 8px;
+        padding: 15px 0 5px 0;
     }
 }

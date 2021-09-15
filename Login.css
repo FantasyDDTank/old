@@ -120,6 +120,7 @@ section{
     pointer-events: none;
     padding: 10px 0;
     border: 1px solid #28ff28;
+    border-radius: 30px;
 }
 
 .main .section .section-content .outer-container .container{
@@ -149,6 +150,7 @@ section{
     position: relative;
     background-color: #fff;
     list-style-type: none;
+    border-radius: 30px;
 }
 
 .main .section .section-content .small-container .container{
@@ -171,6 +173,7 @@ section{
     background: transparent;
     color: #9295a2;
     border: 1px solid #4e5165;
+    border-radius: 30px;
     box-shadow: none;
     display: block;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
