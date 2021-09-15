@@ -120,6 +120,7 @@ section{
     pointer-events: none;
     padding: 10px 0;
     border: 1px solid #28ff28;
+    border-radius: 30px;
 }
 
 .main .section .section-content .outer-container .container{
@@ -149,6 +150,11 @@ section{
     position: relative;
     overflow: hidden;
     pointer-events: none;
+    border-radius: 30px;
+}
+
+.main .section .section-content .select-container::-webkit-scrollbar{
+    display: none;
 }
 
 .main .section .section-content .select-container .button-container{
@@ -179,6 +185,7 @@ section{
     overflow: visible;
     vertical-align: inherit;
     pointer-events: auto;
+    border-radius: 30px;
 }
 
 .main .section .section-content .select-container .button-container button#DOpen.active {
@@ -217,10 +224,11 @@ section{
     position: relative;
     background-color: #fff;
     list-style-type: none;
+    border-radius: 30px;
 }
 
 .main .section .section-content .links-content .small-container .container{
-    margin: 0 15px;
+    margin: 0 20px;
     text-align: justify;
     text-justify: inter-word;
 }
