@@ -542,15 +542,29 @@ section{
     text-decoration: none;
 }
 
-.grid-container .text .red{
+.grid-container .text .win{
+    text-align: center;
+    white-space: nowrap;
+    background: yellow;
+    color: #000;
+    font-size: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: solid 1px grey;
+}
+
+.grid-container .text .loss{
     text-align: center;
     white-space: nowrap;
     background: red;
     color: #fff;
     font-size: 12px;
-    min-width: 23px;
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 4px;
+    padding-right: 4px;
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 12px;
