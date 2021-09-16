@@ -520,7 +520,6 @@ section{
     border-radius: 20px;
     border: solid 1px #ff4dde;
     grid-column: span 1;
-    display: none;
 }
 
 .grid-container .text span{
