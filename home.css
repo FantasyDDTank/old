@@ -542,6 +542,21 @@ section{
     text-decoration: none;
 }
 
+.grid-container .text .red{
+    text-align: center;
+    white-space: nowrap;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    min-width: 23px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1024px){
     .grid-container {
         display: grid;
