@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>奇幻弹弹堂 - 技术赛</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Tec.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="header-container">
+        <nav class="nav">
+            <ul class="nav-list nav-list-mobile">
+                <li class="nav-item">
+                    <div class="mobile-menu">
+                    	<span class="line-border line-border-top">
+	                        <span class="line line-top"></span>
+	                    </span>
+	                    <span class="line-border line-border-bottom">
+	                        <span class="line line-bottom"></span>
+	                    </span>
+                    </div>
+                </li>
+                <li class="nav-item logo">
+                    <a href="index.html" class="nav-link nav-link-logo"></a>
+                </li>
+            </ul>
+            <ul class="nav-list nav-list-mobile nav-list-larger">
+                <li class="notice-box">
+                    <div class="notice">
+                        <p>欢迎</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav-list nav-list-larger">
+                <li class="nav-item nav-item-hidden">
+                    <a href="index.html" class="nav-link nav-link-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="Gamescript.html" class="nav-link">副本</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bugcom.html" class="nav-link">Bug合集</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Tec.html" class="nav-link">技术赛</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Login.html" class="nav-link">【傲视天下】专属</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<script src="js/header.js"></script>
+
+<!-- Main -->
+<main class="main">
+	<!-- Main -Ribbon -->
+	<section class="homepage-section collection-module">
+		<div class="module-content">
+			<div class="ribbon-notice">
+				<div class="section-content section-content-notice">
+					<span class="ribbon-copy variant">
+						本网页由玩家所创，非官方所经营。以下所有内容有任何错误，还请海涵。内容将持续更新，敬请期待!
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!-- Main Content -->
+    <section class="main-module">
+        <div class="section-content">
+            <div class="wrapper">
+                <div class="wrapper-box">
+                    <div class="box">
+                        <button class="links" onclick="openEventP(event, '64T32')" id="DOpen">64进32</button>
+                        <button class="links" onclick="openEventP(event, '32T16')" id="two">32进16</button>
+                        <div class="segmentnav-selection-background"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 技术赛 -->
+            <div class="basic-content">
+                <div class="small-container information">
+                    <div class="container">
+                        <div class="title">
+                            <span>
+                                比赛须知
+                            </span>
+                        </div>
+                        <div class="content">
+                            <span>
+                                1.比赛使用武器为「极.雷霆」
+                                <br>
+                                2.参赛者必须使用官方所提供的账号，游戏客服会在开始比赛前“私信”您账号和密码
+                                <br>
+                                3.若发现在比赛专用的账号动过任何手脚或者提升战力，将一律废除比赛资格
+                            </span>
+                        </div>
+                        <br>
+                        <div class="title">
+                            <span>
+                                比赛规则
+                            </span>
+                        </div>
+                        <div class="content">
+                            <span>
+                                禁止使用道具【引导】、【冻结冰弹】和【穿甲】与使用【POW】
+                            </span>
+                        </div>
+                        <br>
+                        <div class="title">
+                            <span>
+                                注意
+                            </span>
+                        </div>
+                        <div class="content">
+                            <span>
+                                1.报名后游戏角色名称不能改（一改直接取消资格）
+                                <br>
+                                2.如果当天缺席就视为弃权（有大约5分钟时间等待玩家入场）
+                                <br>
+                                3.会有两位GM分别在两队，进入游戏后进行托管，不会对竞技造成干扰。
+                            </span>
+                        </div>
+                        <div class="image-content">
+                            <img src="Images/TEC/TEC.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 战力赛 -->
+            <div id="64T32" class="links-content">
+                <!-- 标题 -->
+                <div class="title-container">
+                    <div class="container">
+                        <div class="title">
+                            <span>
+                                64进32强（新）
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 64强进32强（新） -->
+                <div class="small-container">
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid-container">
+                                <div class="text">
+                                    <b>
+                                        2021年9月18日
+                                        <br>
+                                        星期六
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    最后的温柔 <a class="win">胜</a> vs 風尘暴ღ <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/elJRqPGMI90" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    小枫 <a class="win">胜</a> vs 冷火锅つ <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/2EUEKiYMxPw" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    葡萄杰 <a class="win">胜</a> vs 冰结龙ღ <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/1Cu9KDPui0I" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    Gucci <a class="loss">败</a> vs ☪ゞ瑄瑄އއ <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/tiDB-5-AK2o" class="video">点击观看</a>
+                                </div>
+                
+                                <div class="text">
+                                    <b>
+                                        2021年9月19日
+                                        <br>
+                                        星期日
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    ➶小无赖﹍๑ <a class="win">胜</a> vs 铜蒙 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/IXyXnPv83Io" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    女人 <a class="win">胜</a> vs 萱草花 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/oMZyBIsUJXU" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    良性循环 <a class="loss">败</a> vs 冰╮ιCe┉╃ <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/yukmBe2tpV4" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    说声晚安好吗、 <a class="loss">败</a> vs 憨憨大叔 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/7bQiHaz-6MY" class="video">点击观看</a>
+                                </div>
+                
+                                <div class="text">
+                                    <b>
+                                        2021年9月20日
+                                        <br>
+                                        星期一
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    ㄨ欲望ㄨ <a class="win">胜</a> vs 悦⭐扬 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/NSGRX1-wBxI" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    小可爱么么哒 <a class="loss">败</a> vs よ網.等毕业 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/oUeY7w3JRJU" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    多雲ღ <a class="win">胜</a> vs Tealive <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/32bz1P0NBlI" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    薄荷巧克巧克力 <a class="loss">败</a> vs 神奇の咖啡 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/liC5GhrM-bA" class="video">点击观看</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月21日
+                                        <br>
+                                        星期二
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    宠妻の王子 <a class="win">胜</a> vs 白小纯 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/EEFvOuqTUmA" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    外掛 <a class="win">胜</a> vs 随心✗ <a class="QQ">弃权</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    大雕11寸 <a class="loss">败</a> vs 暴风 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/TlG0ssmL1fQ" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    无课玩家 <a class="win">胜</a> vs G4ღ夜影 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/KyIl6rgX91Q" class="video">点击观看</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月22日
+                                        <br>
+                                        星期三
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    艾斯Ace <a class="win">胜</a> vs 叫花鸡 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/HShwFm-ixy0" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    摆渡人 <a class="win">胜</a> vs 暮光 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/aKUN2FXG2-8" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    半夏灬微凉 <a class="loss">败</a> vs 奇幻の夜神 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/XER0JwBR62M" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    星尘龙ღ <a class="win">胜</a> vs 佛系Emo猪 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/RSyWxOWXGNg" class="video">点击观看</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月23日
+                                        <br>
+                                        星期四
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    小紅兒 <a class="win">胜</a> vs Aka Bii <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/GyNLdqLvTd4" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    ღ叔叔ღ <a class="loss">败</a> vs LUVRYUJIN <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/ZUzxlbB-S08" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    梧桐 <a class="win">胜</a> vs 多多 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/F90d-UEcqFY" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    慈慈 <a class="win">胜</a> vs ༄OroChi೭狂 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/MtF32_0YvZA" class="video">点击观看</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月24日
+                                        <br>
+                                        星期五
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    ★Queen <a class="win">胜</a> vs k567294381 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/KOqrRTNq1L4" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    白米饭 <a class="loss">败</a> vs 波加曼° <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/UwhukNgyBRk" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    小九 <a class="loss">败</a> vs ┉╃晚風 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/1BL1h3VPV8I" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    我要吃薯條 <a class="loss">败</a> vs 蜗牛 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/KtoPHFDArDU" class="video">点击观看</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月25日
+                                        <br>
+                                        星期六
+                                    </b>
+
+                                    <br><br>
+                                    <b>1300-1400</b>
+                                    <br>
+                                    咸鱼一条 <a class="loss">败</a> vs 孤战 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/O9AkGcLPQxo" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1500-1600</b>
+                                    <br>
+                                    小可爱来了 <a class="win">胜</a> vs ღ小灰ღ <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/UN0ggUl62fo" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1700-1800</b>
+                                    <br>
+                                    黑蔷薇ღ <a class="win">胜</a> vs 沈恩惠 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/tX0qyBHQ94k" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    龍根 <a class="win">胜</a> vs ღ蓝鱼ღ <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/wXxX7LSFb0k" class="video">点击观看</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 战力赛 -->
+            <div id="32T16" class="links-content">
+                <!-- 标题 -->
+                <div class="title-container">
+                    <div class="container">
+                        <div class="title">
+                            <span>
+                                32进16
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 32进16 -->
+                <div class="small-container">
+                    <div class="container">
+                        <div class="content">
+                            <div class="grid-container">
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月27日
+                                        <br>
+                                        星期一
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    ➶小无赖﹍๑ <a class="loss">败</a> vs 慈慈 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/wYsOVkDlw0U" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1600-1700</b>
+                                    <br>
+                                    黑蔷薇ღ <a class="win">胜</a> vs よ網.等毕业 <a class="loss">败</a>
+                                    <br>
+                                    <a href="https://youtu.be/81gGXuUWt_U" class="video">点击观看</a>
+                                </div>
+                                
+                                <div class="text">
+                                    <b>
+                                        2021年9月28日
+                                        <br>
+                                        星期二
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    小枫 <a class="loss">败</a> vs 葡萄杰 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/A-ZRPgiHFHA" class="video">点击观看</a>
+
+                                    <br><br>
+                                    <b>1600-1700</b>
+                                    <br>
+                                    宠妻の王子 <a class="loss">败</a> vs 奇幻の夜神 <a class="win">胜</a>
+                                    <br>
+                                    <a href="https://youtu.be/W0UqriJ6heU" class="video">点击观看</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月29日
+                                        <br>
+                                        星期三
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    星尘龙ღ <a class="win">胜</a> vs 孤战 <a class="loss">败</a>
+
+                                    <br><br>
+                                    <b>1600-1700</b>
+                                    <br>
+                                    ★Queen <a class="QQ">弃权</a> vs 龍根 <a class="win">胜</a>
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    ㄨ欲望ㄨ <a class="loss">败</a> vs 摆渡人 <a class="win">胜</a>
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年9月30日
+                                        <br>
+                                        星期四
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    女人 vs 冰╮ιCe┉╃
+
+                                    <br><br>
+                                    <b>1600-1700</b>
+                                    <br>
+                                    ┉╃晚風  vs 无课玩家
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年10月1日
+                                        <br>
+                                        星期五
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    小紅兒 vs 蜗牛
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    ☪ゞ瑄瑄އއ* vs 最后的温柔
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年10月2日
+                                        <br>
+                                        星期六
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    外掛 vs 艾斯Ace
+
+                                    <br><br>
+                                    <b>1600-1700</b>
+                                    <br>
+                                    梧桐 vs 神奇の咖啡 
+                                </div>
+
+                                <div class="text">
+                                    <b>
+                                        2021年10月3日
+                                        <br>
+                                        星期日
+                                    </b>
+
+                                    <br><br>
+                                    <b>1400-1500</b>
+                                    <br>
+                                    暴风 vs 多雲ღ 
+
+                                    <br><br>
+                                    <b>1600-1700</b>
+                                    <br>
+                                    波加曼° vs LUVRYUJIN
+
+                                    <br><br>
+                                    <b>1900-2000</b>
+                                    <br>
+                                    憨憨大叔 vs 小可爱来了
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+</body>
+<script>
+    function openEventP(evt, cityName) {
+        var i, linkscontent, links;
+        linkscontent = document.getElementsByClassName("links-content");
+        for (i = 0; i < linkscontent.length; i++) {
+            linkscontent[i].style.display = "none";
+        }
+        links = document.getElementsByClassName("links");
+        for (i = 0; i < links.length; i++) {
+            links[i].className = links[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("DOpen").click();
+</script>
+
+</html>
